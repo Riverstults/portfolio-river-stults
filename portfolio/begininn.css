@@ -8,4 +8,7 @@ html, body {
   }
   h1{
     font-family:"Lucida Sans Unicode";
+    font-size: 400%;
+    text-align: center
   }
+  h1{color: #989fa7;}
