@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom right, #ffbdbd, #c9c9ff);
+  }
+  h1{
+    font-family:"Lucida Sans Unicode";
+  }
