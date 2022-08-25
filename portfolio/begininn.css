@@ -5,13 +5,14 @@ html, body {
 
   body {
     background-image: linear-gradient(to bottom right, #ffbdbd, #c9c9ff);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
   }
   h1{
     font-family:"Lucida Sans Unicode";
     font-size: 400%;
-    text-align: center
-  }
-  h1{color: #989fa7;}
+    text-align: center;
+    color: #989fa7;}
 .img-with-text {
     text-align: justify;
     width: [width of img];
@@ -80,4 +81,8 @@ p{
   font-size: 200%;
   color: #989fa7;
   text-align: center;
+}
+.resu{
+  width: 100%;
+  height: auto;
 }
