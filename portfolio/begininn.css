@@ -30,6 +30,9 @@ html, body {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  position: absolute;
+  bottom: 35px;
+  left: 50px;
 }
 
 /* Dropdown button on hover & focus */
@@ -51,6 +54,8 @@ html, body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(69, 67, 67, 0.2);
   z-index: 1;
+  bottom: -135px;
+  left: 50px;
 }
 
 /* Links inside the dropdown */
@@ -83,6 +88,13 @@ p{
   text-align: center;
 }
 .resu{
-  width: 100%;
-  height: auto;
+  height: 150%;
+  width: 70%;
+  margin-top: 150px;
+  float: right;
+  padding-right: 15%;
+ }
+.mail{
+  width: 150px;
+  height: 100px;
 }
