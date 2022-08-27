@@ -98,3 +98,11 @@ p{
   width: 150px;
   height: 100px;
 }
+.python{
+  float:right;
+  padding-right: 40%;
+}
+.ptext{
+  float: right;
+  text-align: center;
+}
