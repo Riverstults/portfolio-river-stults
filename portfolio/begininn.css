@@ -26,12 +26,12 @@ html, body {
 .dropbtn {
   background-color: #afaca2;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 25px;
   border: none;
   cursor: pointer;
   position: absolute;
-  bottom: 35px;
+  bottom: 25px;
   left: 50px;
 }
 
@@ -105,4 +105,15 @@ p{
 .ptext{
   float: right;
   text-align: center;
+}
+.html{
+  float:right;
+  padding-right: 45%;
+  width: 10.5%;
+ 
+}
+.ht{
+  float: right;
+  text-align: center;
+  padding-right: 7%;
 }
