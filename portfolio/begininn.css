@@ -95,7 +95,7 @@ p{
   padding-right: 15%;
  }
 .mail{
-  width: 150px;
+  width: 170px;
   height: 100px;
 }
 .python{
@@ -115,5 +115,15 @@ p{
 .ht{
   float: right;
   text-align: center;
-  padding-right: 7%;
+  padding-right: 6.9%;
+}
+.css{
+  float:right;
+  padding-right: 38.7%;
+  width: 23%;
+}
+.cs{
+  text-align: center;
+  float: right;
+  padding-right: 1.6%;
 }
