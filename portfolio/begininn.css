@@ -105,6 +105,7 @@ p{
 .ptext{
   float: right;
   text-align: center;
+  padding-right: 9.7%;
 }
 .html{
   float:right;
@@ -115,7 +116,7 @@ p{
 .ht{
   float: right;
   text-align: center;
-  padding-right: 6.9%;
+  padding-right: 16.5%;
 }
 .css{
   float:right;
@@ -125,7 +126,7 @@ p{
 .cs{
   text-align: center;
   float: right;
-  padding-right: 1.6%;
+  padding-right: 11.5%;
 }
 .dj{
   float:right;
@@ -135,8 +136,7 @@ p{
 .jan{
   text-align: center;
   float: right;
-  top: 10%;
-  padding-left: 10%;
+  padding-right: 8%;
 }
 .script{
   float:right;
@@ -145,6 +145,7 @@ p{
  
 }
 .jscript{
+  padding-right: 1.7%;
   float: right;
   text-align: center;
 
@@ -156,7 +157,7 @@ p{
  
 }
 .ja{
-  padding-right: 10%;
+  padding-right: 11%;
   float: right;
 
 }
