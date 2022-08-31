@@ -171,3 +171,15 @@ p{
   float: right;
   text-align: center;
 }
+.tv{
+  width: 40%;
+}
+.cook{
+  width: 40%;
+}
+.book{
+  text-align: left;
+}
+.remote{
+  text-align: left;
+}
