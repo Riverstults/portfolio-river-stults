@@ -156,7 +156,17 @@ p{
  
 }
 .ja{
+  padding-right: 10%;
+  float: right;
+
+}
+.spring{
+  float:right;
+  padding-right: 30%;
+  width: 40%;
+ 
+}
+.bing{
   float: right;
   text-align: center;
-
 }
