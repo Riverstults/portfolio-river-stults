@@ -26,13 +26,13 @@ html, body {
 .dropbtn {
   background-color: #afaca2;
   color: white;
-  padding: 10px;
-  font-size: 25px;
+  padding: .3em;
+  font-size: 157%;
   border: none;
   cursor: pointer;
   position: absolute;
-  bottom: 25px;
-  left: 50px;
+  bottom: 1em;
+  left: 2em;
 }
 
 /* Dropdown button on hover & focus */
@@ -51,17 +51,17 @@ html, body {
   display: none;
   position: absolute;
   background-color:#a4abb3;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(69, 67, 67, 0.2);
+  min-width: 10em;
+  box-shadow: 0% 8% 16% 0% rgba(69, 67, 67, 0.2);
   z-index: 1;
-  bottom: -135px;
-  left: 50px;
+  bottom: -8.5em;
+  left: 3.15em;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 7% 8%;
   text-decoration: none;
   display: block;
 }
@@ -73,7 +73,7 @@ html, body {
 .show {display:block;}
 
 .images-remove.png {
-  width: 400px,
+  width: 80%,
 }
 .images-remove.png {
   height: auto;
@@ -90,13 +90,13 @@ p{
 .resu{
   height: 150%;
   width: 70%;
-  margin-top: 150px;
+  margin-top: 7%;
   float: right;
   padding-right: 15%;
  }
 .mail{
-  width: 170px;
-  height: 100px;
+  width: 13%;
+  height: 10%;
 }
 .python{
   float:right;
@@ -172,14 +172,41 @@ p{
   text-align: center;
 }
 .tv{
-  width: 40%;
+  width: 60%;
+  float:left;
+  padding-left: 20%;
 }
 .cook{
-  width: 40%;
+  width: 60%;
+  float: left;
+  text-align: left;
+  display: inline;
+  padding-left: 20%;
 }
 .book{
-  text-align: left;
+  padding-top: 9em;
+  text-align: center;
+  font-size: 3em;
 }
 .remote{
+  text-align: center;
+  font-size: 3em;
+
+}
+.cooker{
   text-align: left;
+ float: right;
+ display: inline;
+ padding-left: 7%;
+ padding-right: 7%;
+}
+.cookbook{
+  overflow: hidden;
+}
+.one{
+  text-align: left;
+  float: right;
+  padding-left: 7%;
+  padding-right: 7%;
+  display: inline;
 }
