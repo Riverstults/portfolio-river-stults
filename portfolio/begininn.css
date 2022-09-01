@@ -210,3 +210,10 @@ p{
   padding-right: 7%;
   display: inline;
 }
+.name{
+  text-align: left;
+  float: right;
+  padding-left: 7%;
+  padding-right: 7%;
+  display: inline;
+}
