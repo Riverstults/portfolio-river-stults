@@ -10,7 +10,7 @@
     function initHeader() {
         width = window.innerWidth;
         height = window.innerHeight;
-        target = {x: width/2, y: height/2};
+        target = {x: width, y: height};
 
         largeHeader = document.getElementById('large-header');
         largeHeader.style.height = height+'px';
@@ -107,9 +107,9 @@
     // animation
     function initAnimation() {
         animate();
-        for(var i in points) {
-            shiftPoint(points[i]);
-        }
+        // for(var i in points) {
+        //     shiftPoint(points[i]);
+        // }
     }
 
     function animate() {
@@ -138,13 +138,13 @@
         requestAnimationFrame(animate);
     }
 
-    function shiftPoint(p) {
-        TweenLite.to(p, 1+1*Math.random(), {x:p.originX-50+Math.random()*100,
-            y: p.originY-50+Math.random()*100, ease:Circ.easeInOut,
-            onComplete: function() {
-                shiftPoint(p);
-            }});
-    }
+    // function shiftPoint(p) {
+    //     TweenLite.to(p, 1+1*Math.random(), {x:p.originX-50+Math.random()*100,
+    //         y: p.originY-50+Math.random()*100, ease:Circ.easeInOut,
+    //         onComplete: function() {
+    //             shiftPoint(p);
+    //         }});
+    // }
 
     // Canvas manipulation
     function drawLines(p) {

@@ -16,7 +16,7 @@ html,body{
 
 #large-header,body {
 	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-attachment:fixed;
 }
 
