@@ -52,6 +52,18 @@ html, body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .dropbtn {
+    background-color: #afaca2;
+    color: white;
+    padding: .3em;
+    font-size: 157%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
+  }
+  
   /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
     background-color: #989fa7;
