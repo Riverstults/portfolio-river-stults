@@ -97,6 +97,8 @@ p{
 .mail{
   width: 13%;
   height: 10%;
+  float: right;
+  padding-right: 7em;
 }
 .python{
   float:right;
@@ -229,10 +231,9 @@ display:block;
     line-height: 1.5;
     color: #212529;
     text-align: left; 
-    margin-top: 10em;
+    margin-top: 2.5em;
     padding: 30px;
     padding-bottom: 10px;
-   
     border-radius: 0.25rem;
     max-width: 100%;
 }
