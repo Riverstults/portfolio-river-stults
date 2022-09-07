@@ -132,7 +132,7 @@ html, body {
   .container {
     position: relative;
     margin: 0 auto;
-    
+  
     @media (max-width: 699px) {
       padding-right: 40px;
       padding-left: 40px;
@@ -599,27 +599,6 @@ html, body {
       width: 15.625rem;
     }
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   button, .c-header-filters_button,
   .o-button {
     display: inline-block;
