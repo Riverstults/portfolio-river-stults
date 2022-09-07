@@ -112,7 +112,7 @@ html, body {
     bottom: 30px;
     z-index: 999;
     
-    &__item {
+.item {
       cursor: pointer;
       display: inline-block;
       white-space: nowrap;
@@ -123,12 +123,10 @@ html, body {
       margin: 0 5px;
       transition: .2s ease-in-out;
     }
-      &.is-current,
-      &:hover{
+      .is-current,:hover{
         background-color: #fff;
       }
-    }
-  }
+  
   
   .container {
     position: relative;
@@ -567,7 +565,8 @@ html, body {
   }
   
   @media (max-width: 999px) {
-    .c-header-home_controls.-nomobile ://display: none;
+    .c-header-home_controls.-nomobile 
+    {display : none;}
     
   }
   
@@ -1940,7 +1939,7 @@ html, body {
   
   @media (max-width: 999px) {
     .c-header-home_controls.-nomobile 
-      //display: none;
+      {display: none;}
     
   }
   
