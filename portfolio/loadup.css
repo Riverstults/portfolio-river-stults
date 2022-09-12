@@ -49,8 +49,6 @@ html,body{
    margin-left: 0%;
 }
 .me{
-margin-left: auto;
-margin-right: auto;
-margin-bottom: auto;
+float: right;
 }
 
