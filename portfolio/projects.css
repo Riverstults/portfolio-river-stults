@@ -106,19 +106,22 @@ html, body {
   .container {
     position: relative;
     width: 40%;
+    left: 10%;
+
   }
   
   .image {
     display: block;
     width: 100%;
     height: auto;
+    left: 10%;
   }
   
   .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 0%;
     right: 0;
     height: 100%;
     width: 100%;
@@ -147,4 +150,44 @@ h3{
     font-size: 30px;
     color: #828588;;
   }
-   
+  .container2 {
+    position: relative;
+    width: 40%;
+    float:right ;
+  }
+  
+  .images {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5fbddc;
+  }
+  
+  .container2:hover .overlay1 {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
