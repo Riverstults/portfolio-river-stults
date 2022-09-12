@@ -107,6 +107,7 @@ html, body {
     position: relative;
     width: 40%;
     left: 3%;
+    top: 7%;
 
   }
   
@@ -154,15 +155,15 @@ h3{
     position: relative;
     width: 45%;
     float:right ;
-    bottom: 41.3%;
+    bottom: 50.3%;
     padding-right: 5%;
   
   }
   
   .images {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 98%;
+    height: 70%;
     
   }
   
@@ -171,9 +172,9 @@ h3{
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    padding-right: 20%;
     height: 100%;
-    width: 100%;
+    width: 89%;
     opacity: 0;
     transition: .5s ease;
     background-color: #5fbddc;
