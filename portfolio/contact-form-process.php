@@ -1,13 +1,13 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
+    // EDIT THE FOLLOWING TWO LINES:
     $email_to = "pstults04@gmail.com";
-    $email_subject = "Interests";
+    $email_subject = "New form submissions";
 
     function problem($error)
     {
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "We're sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br><br>";
         echo $error . "<br><br>";
         echo "Please go back and fix these errors.<br><br>";
@@ -20,7 +20,7 @@ if (isset($_POST['Email'])) {
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
     ) {
-        problem('We are sorry, but there appears to be a problem with the form you submitted.');
+        problem('We're sorry, but there appears to be a problem with the form you submitted.');
     }
 
     $name = $_POST['Name']; // required
@@ -34,7 +34,7 @@ if (isset($_POST['Email'])) {
         $error_message .= 'The Email address you entered does not appear to be valid.<br>';
     }
 
-    $string_exp = "/^[A-Za-z .'-]+$/";
+    $string_exp = "/^[A-Za-z .'-+$/";
 
     if (!preg_match($string_exp, $name)) {
         $error_message .= 'The Name you entered does not appear to be valid.<br>';
@@ -67,9 +67,9 @@ if (isset($_POST['Email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
-    <!-- include your success message below -->
+    <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
 
-    Thank you for contacting me. I will be in touch with you very soon.
+    Thanks for getting in touch. We'll get back to you soon.
 
 <?php
 }

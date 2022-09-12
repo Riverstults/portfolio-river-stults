@@ -15,5 +15,5 @@ function myFunction() {
       }
     }
 }
-const $window = $(window);
-const $body = $('body');
+const $window = (window);
+const $body = ('body');
