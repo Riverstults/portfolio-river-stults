@@ -95,85 +95,73 @@ p{
   float: right;
   padding-right: 15%;
  }
+ .link{
+  float: right;
+  bottom: 40%;
+  padding-right: 14%;
+ }
+ .git{
+  float: right;
+  padding-right: 14%;
+  padding-top: 1.5%;
+
+ }
 .mail{
   width: 13%;
-  height: 10%;
+  height: 16%;
   float: right;
-  padding-right: 7em;
+  padding-right: 14%;
+  padding-top: 3%;
+
 }
 .python{
-  float:right;
+  float: right;
   padding-right: 40%;
 }
-.ptext{
-  float: right;
-  text-align: center;
-  padding-right: 9.7%;
-}
+
 .html{
   float:right;
   padding-right: 45%;
   width: 10.5%;
  
 }
-.ht{
-  float: right;
-  text-align: center;
-  padding-right: 16.5%;
-}
+
+
 .css{
   float:right;
   padding-right: 38.7%;
   width: 23%;
 }
-.cs{
-  text-align: center;
-  float: right;
-  padding-right: 11.5%;
-}
+
+
 .dj{
   float:right;
   padding-right: 38.7%;
   width: 23%;
 }
-.jan{
-  text-align: center;
-  float: right;
-  padding-right: 8%;
-}
+
+
 .script{
   float:right;
   padding-right: 35.5%;
   width: 29.5%;
  
 }
-.jscript{
-  padding-right: 1.7%;
-  float: right;
-  text-align: center;
 
-}
 .java{
   float:right;
   padding-right: 38%;
   width: 23.3%;
  
 }
-.ja{
-  padding-right: 11%;
-  float: right;
 
-}
 .spring{
   float:right;
   padding-right: 30%;
   width: 40%;
  
 }
-.bing{
-  float: right;
-  text-align: center;
-}
+
 .tv{
   width: 60%;
   float:left;
