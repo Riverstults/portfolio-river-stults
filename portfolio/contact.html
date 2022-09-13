@@ -20,40 +20,25 @@
           <a href="skills.html">Skills</a>
         </div>
     </div>
-    <div class="fcf-body">
-
-        <div id="fcf-form">
-        <h3 class="fcf-h3"></h3>
-    
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-            
-            <div class="fcf-form-group">
-                <label for="Name" class="fcf-label">Your name</label>
-                <div class="fcf-input-group">
-                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                </div>
-            </div>
-    
-            <div class="fcf-form-group">
-                <label for="Email" class="fcf-label">Your email address</label>
-                <div class="fcf-input-group">
-                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                </div>
-            </div>
-    
-            <div class="fcf-form-group">
-                <label for="Message" class="fcf-label">Your message</label>
-                <div class="fcf-input-group">
-                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                </div>
-            </div>
-    
-            <div class="fcf-form-group">
-                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-            </div>
-    
-        </form>
+    <form id="contact_form" action="contact-form-process.php" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label class="required" for="name">Your name:</label><br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+          <span id="name_validation" class="error_message"></span>
         </div>
+        <div class="row">
+          <label class="required" for="email">Your email:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+          
+          <input id="submit_button" type="submit" value="Send email" />
+      </form>
 
         <a target="_blank" href="https://www.linkedin.com/in/river-stults-8045a914b/">
             <img class="link" src="images/images-remove.png" alt="linkedin">
@@ -64,6 +49,6 @@
         <a target="_blank" href="mailto:pstults04@gmail.com?subject = Feedback&body = Message" type="Email">
             <img class="mail" src="images/gmail.png" alt="Email">
             </a>
-    </div>
+
 </body>
 </html>
