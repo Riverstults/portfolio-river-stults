@@ -292,3 +292,24 @@ input[type=submit] {
   margin-bottom: 2%;
  }
 }
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+ {
+  .link{
+    float: right;
+    bottom: 40%;
+    padding-right: 14%;
+   }
+   .git{
+    float: right;
+    padding-right: 10%;
+    padding-top: 1.4%;
+   }
+  .mail{
+    width: 20%;
+    height: 16%;
+    float: left;
+    top: -120%;
+  }
+  }
