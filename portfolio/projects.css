@@ -198,5 +198,86 @@ h3{
     text-align: center;
   }
   @media only screen and (max-width: 700px) {
+    .container {
+      position: relative;
+      width: 75%;
+      left: 10%;
+      top: 3%;
+  
+    }
     
+    .image {
+  
+      display: block;
+      width: 100%;
+      height: auto;
+      left: 10%;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0%;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #5fbddc;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+  h3{
+      font-size: 20px;
+      color: #828588;;}
+
+    .container2 {
+        position: relative;
+        width: 76.5%;
+        top: 9%;
+        right: 8.5%;
+      
+      }
+      
+      .images {
+        display: block;
+        width: 98%;
+        height: 70%;
+        
+      }
+      
+      .overlay1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding-right: 20%;
+        height: 100%;
+        width: 72%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #5fbddc;
+      }
+      
+      .container2:hover .overlay1 {
+        opacity: 1;
+      }
+      
+
   }
