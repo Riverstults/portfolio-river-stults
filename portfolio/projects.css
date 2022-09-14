@@ -202,8 +202,6 @@ h3{
       position: relative;
       width: 75%;
       left: 10%;
-      top: 3%;
-  
     }
     
     .image {
@@ -250,7 +248,7 @@ h3{
     .container2 {
         position: relative;
         width: 76.5%;
-        top: 9%;
+        top: 10%;
         right: 8.5%;
       
       }
@@ -280,4 +278,102 @@ h3{
       }
       
 
+  }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container {
+      position: relative;
+      width: 45%;
+      left: 2%;
+
+  
+    }
+    
+    .image {
+  
+      display: block;
+      width: 100%;
+      height: auto;
+      left: 10%;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0%;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #5fbddc;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+  h3{
+      font-size: 30px;
+      color: #828588;;
+    }
+    .container2 {
+      position: relative;
+      width: 45%;
+      float:right ;
+      /* bottom: 48.3%; */
+      padding-right: 6%;
+    
+    }
+    
+    .images {
+      display: block;
+      width: 98%;
+      height: 70%;
+      
+    }
+    
+    .overlay1 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 20%;
+      height: 100%;
+      width: 89%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #5fbddc;
+    }
+    
+    .container2:hover .overlay1 {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
   }
