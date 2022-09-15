@@ -18,8 +18,8 @@ html, body {
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
     transition: 0.3s;
-    width: 38%;
-    height: 20px;
+    width: 25%;
+    height: 10px;
     left: 100px;
     
   }
@@ -40,7 +40,7 @@ html, body {
     width: 40%;
     height: 40%;
     left: 800px;
-    padding-right: 4%;
+   
   }
   .htm{
     height: 265px;
@@ -50,20 +50,60 @@ html, body {
     box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
     transition: 0.3s;
     width: 40%;
-    top: 1000px;
+    left: 800px;
+    top: 650px;
+
+  }
+  .dr{
+    height: 265px;
   }
   .cardv {
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
     transition: 0.3s;
     top: 1000px;
-    width: 40%;
+    width: 38%;
+    left: 100px;
+    top: 650px;
+  }
+  .jr{
+    height: 265px;
   }
   .cardi {
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
     transition: 0.3s;
+    top: 1100px;
+    width: 40%;
+    left: 800px;
+  }
+  /* .cardr {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
+    transition: 0.3s;
+
+    width: 40%;
+    /* top: 1000px; */
+  
+  .carde {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
+    transition: 0.3s;
     top: 1000px;
+    width: 40%;
+  }
+  .cardes {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
+    transition: 0.3s;
+    top: 2000px;
+    width: 40%;
+  }
+  .carder {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(213, 130, 130, 0.2);
+    transition: 0.3s;
+    top: 2000px;
     width: 40%;
   }
   .dropbtn {
