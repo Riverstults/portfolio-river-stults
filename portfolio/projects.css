@@ -202,6 +202,7 @@ h3{
       position: relative;
       width: 75%;
       left: 10%;
+      top: -5%;
     }
     
     .image {
@@ -220,7 +221,7 @@ h3{
       right: 0;
       height: 100%;
       width: 100%;
-      opacity: 0;
+      opacity: 1;
       transition: .5s ease;
       background-color: #5fbddc;
     }
@@ -248,7 +249,7 @@ h3{
     .container2 {
         position: relative;
         width: 76.5%;
-        top: 10%;
+        top: 5%;
         right: 8.5%;
       
       }
@@ -268,9 +269,9 @@ h3{
         padding-right: 20%;
         height: 100%;
         width: 72%;
-        opacity: 0;
+        opacity: 1;
         transition: .5s ease;
-        background-color: #5fbddc;
+        /* background-color: #5fbddc; */
       }
       
       .container2:hover .overlay1 {
