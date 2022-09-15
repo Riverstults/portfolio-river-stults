@@ -315,6 +315,15 @@ and (max-width: 1024px)
   .python{
     float: right;
     padding-right: 35%;
-    width: 30%;
-  }
+    width: 30%;}
+
+  .resu{
+      height: 100%;
+      width: 100%;
+      margin-top: 0.5%;
+      padding-right: 3%;
+      padding-left: 15%;
+      margin-bottom: 2%;
+     }
+  
   }
