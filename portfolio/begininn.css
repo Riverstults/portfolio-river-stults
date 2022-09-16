@@ -335,18 +335,24 @@ and (max-width: 1024px)
  {
   .link{
     position: absolute;
-    bottom: 40%;
-    padding-right: 20%;
+    width: 38%;
+    height: 23%;
+    left: 290px;
+    top: 775px;
    }
    .git{
     position: absolute;
- 
+    width: 35%;
+    height: 20%;
+    top: 450px;
+    left: 290px;
+  
    }
   .mail{
     position: absolute;
     width: 40%;
-    height: 16%;
-  
+    height: 23%;
+    left: 266px;
   }
   .python{
     float: right;
