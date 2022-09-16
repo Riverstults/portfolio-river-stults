@@ -84,7 +84,7 @@ html, body {
 }
 p{
   font-family:"Lucida Sans Unicode";
-  font-size: 200%;
+  font-size: 250%;
   color: #828588;
   text-align: center;
 }
@@ -266,16 +266,24 @@ input[type=submit] {
  }
  .link{
   position: absolute;
-  
+  width: 38%;
+  height: 23%;
+  left: 150px;
+  top: 575px;
  }
  .git{
   position: absolute;
+  width: 35%;
+  height: 20%;
+  top: 350px;
+  left: 150px;
 
  }
 .mail{
   position: absolute;
-  width: 50%;
-  /* height: 10%; */
+  width: 40%;
+  height: 23%;
+  left: 139px;
 }
  .dropbtn {
   background-color: #afaca2;
