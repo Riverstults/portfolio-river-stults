@@ -261,9 +261,10 @@ input[type=submit] {
 } */
 @media only screen and (max-width: 700px) {
  .name{
-  font-size: 100%;
+  font-size: 130%;
   font-weight: 450%;
  }
+
  .link{
   position: absolute;
   width: 38%;
