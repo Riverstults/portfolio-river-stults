@@ -382,7 +382,7 @@ h3{
       text-align: center;
     }
   }
-  @media only screen and (max-width: 1440px) {
+  /* @media only screen and (max-width: 1440px) {
     .container {
       position: relative;
       width: 45%;
@@ -395,4 +395,4 @@ h3{
     top: -57%;
     padding-right: 2%;
     float: right;}
-  }
+  } */
