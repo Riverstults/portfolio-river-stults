@@ -97,22 +97,23 @@ p{
   margin-bottom: 4%;
  }
  .link{
-  float: right;
-  bottom: 40%;
-  padding-right: 14%;
+ position: absolute;
+ left: 650px;
+height: 35%;
  }
  .git{
-  float: right;
-  padding-right: 14%;
-  padding-top: 1.5%;
-
+ position: absolute;
+ left: 1100px;
+ top: 200px;
+ 
  }
 .mail{
-  width: 13%;
-  height: 16%;
-  float: right;
-  padding-right: 14%;
-  padding-top: 3%;
+  position: absolute;
+  left: 175px;
+  top: 148px;
+  width: 20%;
+  height: 50%;
+
 
 }
 .python{
@@ -263,6 +264,19 @@ input[type=submit] {
   font-size: 100%;
   font-weight: 450%;
  }
+ .link{
+  position: absolute;
+  
+ }
+ .git{
+  position: absolute;
+
+ }
+.mail{
+  position: absolute;
+  width: 50%;
+  /* height: 10%; */
+}
  .dropbtn {
   background-color: #afaca2;
   color: white;
@@ -311,20 +325,19 @@ and (min-width: 590px)
 and (max-width: 1024px) 
  {
   .link{
-    float: right;
+    position: absolute;
     bottom: 40%;
     padding-right: 20%;
    }
    .git{
-    float: right;
-    padding-right: 15%;
-    padding-top: 1.4%;
+    position: absolute;
+ 
    }
   .mail{
-    width: 30%;
+    position: absolute;
+    width: 40%;
     height: 16%;
-   padding-top: 10%;
-   padding-right: 25%;
+  
   }
   .python{
     float: right;
