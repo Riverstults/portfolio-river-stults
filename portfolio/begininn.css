@@ -367,5 +367,29 @@ and (max-width: 1024px)
       padding-left: 15%;
       margin-bottom: 2%;
      }
-  
-  }
+     
+     @media only screen and (max-width: 1440px) {
+      .mail{
+      position: absolute;
+      width: 40%;
+      height: 10%;
+      left: 266px;
+      top: -100px;
+       }
+       .link{
+        position: absolute;
+        width: 38%;
+        height: 23%;
+        left: 290px;
+        top: 775px;
+       }
+       .git{
+        position: absolute;
+        width: 35%;
+        height: 20%;
+        top: 450px;
+        left: 290px;
+      
+       }
+      }
+    }

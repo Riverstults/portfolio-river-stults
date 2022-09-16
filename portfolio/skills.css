@@ -227,7 +227,7 @@ html, body {
   }
   .te{ padding: 0.7px 16px;
     background-color: rgb(182, 214, 242);
-    font-size:0.61em;}
+    font-size:0.50em;}
   .container {
     padding: 0.7px 16px;
     background-color: rgb(182, 214, 242);
@@ -397,7 +397,7 @@ and (max-width: 1024px)
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   .te{ padding: 0.7px 16px;
-    background-color: rgb(182, 214, 242);
+    background-color: #b6d6f2;
     font-size:0.92em;}
   .container {
     padding: 0.7px 16px;
@@ -533,4 +533,9 @@ and (max-width: 1024px)
     bottom: 6em;
     
   }
+ }
+ @media only screen and (max-width: 1440px) {
+    .te{ padding: 12px 16px;
+        background-color: #b6d6f2;
+        font-size: 0.8em;}
  }
