@@ -107,10 +107,11 @@ html, body {
 
 
   .container {
-    position: relative;
+    position: absolute;
     width: 45%;
     left: 2%;
-    top: 12.6%;
+    top: 202px;
+    left: 50px;
 
   }
   
@@ -156,11 +157,12 @@ h3{
     color: #828588;;
   }
   .container2 {
-    position: relative;
+    position: absolute;
     width: 45%;
-    float:right ;
-    bottom: 50.3%;
-    padding-right: 5%;
+   
+    left: 800px;
+
+ 
   
   }
   
@@ -176,7 +178,7 @@ h3{
     top: 0;
     bottom: 0;
     left: 0;
-    padding-right: 20%;
+    padding-right: 9%;
     height: 100%;
     width: 89%;
     opacity: 0;
