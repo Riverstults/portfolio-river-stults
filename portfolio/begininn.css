@@ -397,3 +397,25 @@ and (max-width: 1024px)
        }
       }
     }
+    @media only screen and (max-width: 1280px) {
+      .link{
+        position: absolute;
+        left: 550px;
+        height: 35%;
+        }
+        .git{
+        position: absolute;
+        left: 975px;
+        top: 200px;
+      
+        }
+       .mail{
+         position: absolute;
+         left: 125px;
+         top: 135px;
+         width: 23%;
+         height: 50%;
+       
+       
+       }
+    }
