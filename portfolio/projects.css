@@ -399,17 +399,18 @@ h3{
       text-align: center;
     }
   }
-  /* @media only screen and (max-width: 1440px) {
-    .container {
+  @media only screen and (max-width: 1280px) {
+    container {
       position: relative;
+      width: 50%;
+    }
+    .container2 {
+      position: absolute;
       width: 45%;
-      left: 2%;
-      top: -5.5%;
+     
+      left: 650px;
+  
+   
+    
+    }
   }
-  .container2 {
-    position: relative;
-    width: 45%;
-    top: -57%;
-    padding-right: 2%;
-    float: right;}
-  } */
