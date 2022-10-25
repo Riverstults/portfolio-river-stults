@@ -104,13 +104,40 @@ html, body {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+.container3 {
+  position: absolute;
+  width: 45%;
+  left: 2%;
+  top: 202px;
+  left: 50px;
+}
 
+.jon {
 
-  .container {
+  display: block;
+  width: 683px;
+  height: 447px;
+  left: 10%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5fbddc;
+}
+
+  .container2 {
     position: absolute;
     width: 45%;
     left: 2%;
-    top: 202px;
+    top: 665px;
     left: 50px;
 
   }
@@ -118,8 +145,8 @@ html, body {
   .image {
 
     display: block;
-    width: 100%;
-    height: auto;
+    width: 683px;
+    height: 447px;
     left: 10%;
   }
   
@@ -135,6 +162,10 @@ html, body {
     transition: .5s ease;
     background-color: #5fbddc;
   }
+  .container3:hover .overlay {
+    opacity: 1;
+  }
+
   
   .container:hover .overlay {
     opacity: 1;
@@ -156,7 +187,7 @@ h3{
     font-size: 30px;
     color: #828588;;
   }
-  .container2 {
+  .container {
     position: absolute;
     width: 45%;
    
@@ -168,8 +199,8 @@ h3{
   
   .images {
     display: block;
-    width: 98%;
-    height: 70%;
+    width: 683px;
+  height: 447px;
     
   }
   
@@ -178,7 +209,7 @@ h3{
     top: 0;
     bottom: 0;
     left: 0;
-    padding-right: 9%;
+    padding-right: 11%;
     height: 100%;
     width: 89%;
     opacity: 0;
